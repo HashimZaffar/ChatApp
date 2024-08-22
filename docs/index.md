@@ -81,11 +81,11 @@ This guide will walk through the backend implementation, leaving room for potent
 ---
 ## system architecture diagram
 
-![alt text](<../system arcDiagram.png>)
+<!-- ![alt text](<../system arcDiagram.png>) -->
 
 ---
 ## Data flow diagram
-![alt text](<../data flow diagram.png>)
+<!-- ![alt text](<../data flow diagram.png>) -->
 ---
 
 ## File Structure
