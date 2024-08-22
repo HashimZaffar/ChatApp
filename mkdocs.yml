@@ -1,0 +1,85 @@
+# Site Information
+site_name: 'Socket.io'         # Name of the site
+site_description: 'Project description' # Description (used in meta tags)
+site_author: 'Author Name'             # Site author's name
+site_url: 'https://yourproject.com'    # Base URL of the site
+
+
+
+# Theme Configuration
+theme:
+  name: mkdocs
+  color_mode: dark
+  user_color_mode_toggle: true
+
+  
+
+ 
+  favicon: 'images/favicon.ico'  # Path to favicon
+  palette:                     # Theme color palette customization
+    primary: 'indigo'
+    accent: 'blue'
+  font:                       # Custom fonts
+    text: 'Roboto'
+    code: 'Fira Code'
+
+# # Navigation (Table of Contents)
+# nav:
+#   - Home: 'index.md'
+#   - About: 'about.md'
+#   - Guide:
+#       - 'Introduction': 'guide/introduction.md'
+#       - 'Installation': 'guide/installation.md'
+#   - API Documentation: 'api.md'
+#   - FAQ: 'faq.md'
+#   - Contact: 'contact.md'
+
+# Plugins (Common ones listed, can add more)
+plugins:
+  - search   # Built-in search plugin
+
+# Extensions (for Markdown)
+markdown_extensions:
+  - admonition        # Adds block callouts
+  - codehilite        # Syntax highlighting in code blocks
+  - footnotes         # Footnotes support
+  - tables            # Table support
+  - toc               # Table of contents generation
+  - pymdownx.details  # Collapsible sections
+  - pymdownx.superfences  # Enhanced code fences
+  - pymdownx.highlight  # Code block highlighting
+  - def_list          # Definition list
+
+# Extra JavaScript and CSS files
+extra_css:
+  - 'css/custom.css'   # Add custom CSS
+extra_javascript:
+  - 'js/custom.js'     # Add custom JavaScript
+
+# Static File Handling
+extra:
+  social:
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/yourusername'
+    - icon: 'fontawesome/brands/twitter'
+      link: 'https://twitter.com/yourusername'
+
+# Pages Metadata
+extra:
+  generator: 'MkDocs'
+  version: '1.0.0'
+
+
+
+# Serve files at specific locations (can be used for assets, images, etc.)
+extra:
+  assets_dir: 'assets/'
+
+# Deployment Settings (GitHub Pages, for example)
+site_dir: 'site'  # Output directory for the built site
+docs_dir: 'docs'  # Directory where markdown files are located
+
+# Internationalization (Optional)
+use_directory_urls: true # Use URLs without .html at the end
+
+
